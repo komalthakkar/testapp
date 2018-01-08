@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Text, View, StyleSheet, Button } from 'react-native';
 import Share from 'react-native-share';
 import Icon from 'react-native-vector-icons/MaterialIcons';
+import { Actions } from 'react-native-router-flux';
 
 export default class List extends Component<{}> {
 	constructor(props) {
@@ -30,7 +31,7 @@ export default class List extends Component<{}> {
 	};
 
 		return(
-			<View style = {{ flexDirection: 'row'}}>
+			<View style = {{ flexDirection: 'row' }}>
 				<View style={{ flexDirection: 'row'}}>
         			<View style={{width: 100,height: 50, marginTop: 10 }}>
         				<Text>DD/MM/YYYY</Text>
@@ -48,7 +49,11 @@ export default class List extends Component<{}> {
             			}}/>
         			</View>
         			<View style={{ width: 100, height: 50, marginTop: 10 }}>
-        				<Text> Map View </Text>
+        				<Icon
+        					name="map"
+        					size={30}
+        					onPress={()=>{ Actions.mapview() }}
+        				/>
         			</View>
         
       			</View>

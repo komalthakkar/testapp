@@ -22,46 +22,19 @@
 
 // import React, { Component } from 'react'
 // import Footer from './Footer'
-import React from 'react';
+import React, { Component } from 'react';
 import MapView from 'react-native-maps';
 import { StyleSheet, View } from 'react-native';
 
 import Footer from './Footer';
+import Map from './Map';
 
-
-const styles = StyleSheet.create({
-  container: {
-    ...StyleSheet.absoluteFillObject,
-    height: 400,
-    width: 400,
-    justifyContent: 'flex-end',
-    alignItems: 'center',
-  },
-  map: {
-    ...StyleSheet.absoluteFillObject,
-  },
-});
-
-module.exports = class MyApp extends React.Component {
+export default class App extends Component<{}> {
   render() {
-    const { region } = this.props;
-    console.log(region);
-
     return (
-      <View style={{ flex: 1 }}>
+      <View style={{ flex : 1 }}>
+        <Map />
         <Footer />
-      <View style ={styles.container}>
-        <MapView
-          style={styles.map}
-          region={{
-            latitude: 19.0760,
-            longitude: 72.8777,
-            latitudeDelta: 0.015,
-            longitudeDelta: 0.0121,
-          }}
-        >
-        </MapView>
-      </View>
       </View>
     );
   }

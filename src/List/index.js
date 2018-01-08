@@ -12,8 +12,9 @@ import {
   View
 } from 'react-native';
 
-import AddButton from './AddButton';
+import Header from './Header';
 import List from './List';
+import AddButton from './AddButton';
 
 
 const instructions = Platform.select({
@@ -27,6 +28,7 @@ export default class App extends Component<{}> {
   render() {
     return (
       <View style={{ flex : 1 }}>
+        <Header />
         <List />
         <AddButton />
 

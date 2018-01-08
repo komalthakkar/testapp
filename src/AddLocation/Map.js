@@ -1,3 +1,5 @@
+import React, { Component } from 'react';
+import { View, StyleSheet } from 'react-native';
 import MapView from 'react-native-maps';
 
 
@@ -15,6 +17,17 @@ const styles = StyleSheet.create({
 });
 
 module.exports = class MyApp extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      region: {
+        latitude: 19.0760,
+        longitude: 72.8777,
+        latitudeDelta: 0.015,
+        longitudeDelta: 0.0121,
+      }
+    };
+  }
   render() {
     const { region } = this.props;
     console.log(region);
@@ -23,13 +36,12 @@ module.exports = class MyApp extends React.Component {
       <View style ={styles.container}>
         <MapView
           style={styles.map}
-          region={{
-            latitude: 37.78825,
-            longitude: -122.4324,
-            latitudeDelta: 0.015,
-            longitudeDelta: 0.0121,
-          }}
+          region={this.state.region}
         >
+        <MapView.Marker
+          coordinate={this.state.region}
+          title="region"
+        />
         </MapView>
       </View>
     );

@@ -22,11 +22,20 @@ export default class SignupView extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Image 
-          source={background} 
-          style={[styles.container, styles.bg]}
-          resizeMode="cover"
-        >
+          <Image 
+            source={background}
+            style={{
+              
+              width: '100%',
+              height: '100%',
+              position: 'absolute',
+              justifyContent: 'center',
+              alignItems: 'center',
+              backgroundColor: 'transparent',
+              flexDirection: 'column'
+            }}
+            resizeMode="cover"
+          />
           <View style={styles.headerContainer}>
 
             <View style={styles.headerIconView}>
@@ -116,7 +125,7 @@ export default class SignupView extends Component {
 
             <TouchableOpacity>
               <View style={styles.signup}>
-                <Text style={styles.whiteFont}>Join</Text>
+                <Text style={styles.whiteFont} onPress={() => { Actions.list() }}>Join</Text>
               </View>
             </TouchableOpacity>
 
@@ -126,7 +135,7 @@ export default class SignupView extends Component {
               </View>
             </TouchableOpacity>
           </View>
-        </Image>
+        {/*</Image>*/}
       </View>
     );
   }
@@ -209,6 +218,13 @@ let styles = StyleSheet.create({
   },
   greyFont: {
     color: '#D8D8D8'
+  },
+  backgroundImage: {
+    flexDirection: 'column',
+    width: null,
+    height: null,
+    flex: 1,
+    position: 'absolute'
   },
   whiteFont: {
     color: '#FFF'

@@ -23,7 +23,19 @@ export default class LoginScreen extends Component {
   render() {
     return (
       <View style={styles.container}>
-        {/*<Image source={background} style={styles.background} resizeMode="cover">*/}
+          <Image 
+            source={background}
+            style={{
+              flex: 1,
+              width: '100%',
+              height: '100%',
+              backgroundColor: 'transparent',
+              flexDirection: 'column',
+              alignItems: 'center',
+              justifyContent: 'center',
+              position: 'absolute'
+            }}
+          />
           <View style={styles.markWrap}>
             <Image source={mark} style={styles.mark} resizeMode="contain" />
           </View>
@@ -70,7 +82,7 @@ export default class LoginScreen extends Component {
               </TouchableOpacity>
             </View>
           </View>
-        {/*</Image>*/}
+        
       </View>
     );
   }

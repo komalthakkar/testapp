@@ -3,6 +3,7 @@ for add location and cancel button
 */
 import React, { Component } from 'react';
 import { View, Button } from 'react-native';
+import { Actions } from 'react-native-router-flux';
 
 export default class Footer extends Component {
 	render() {
@@ -12,12 +13,14 @@ export default class Footer extends Component {
 					<Button
 						title='Add Location'
 						color='rgba(231,76,60,1)'
+						onPress={() => { Actions.list() }}
 					/>
 				</View>
 				<View style={{ width: 180, height: 35 }}>
 					<Button
 						title='Close'
 						color='#3f3f3f'
+						onPress={() => { Actions.list() }}
 					/>
 				</View>
 

@@ -3,6 +3,10 @@ import { View } from 'react-native';
 import ActionButton from 'react-native-action-button';
 // import Icon from 'react-native-vector-icons/Ionicons';p
 import { Actions } from 'react-native-router-flux';
+import { connect } from 'react-redux';
+
+import actions from '../actions/GetLocation';
+
 
 export default class AddLocation extends Component<{}> {
 	render() {

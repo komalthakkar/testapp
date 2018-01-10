@@ -15,17 +15,30 @@ import SignupView from './MainPage/signup/index'
 import LoginScreen from './MainPage/login/index'
 import MapView from './Map'
 
+import reducers from './reducers/GetLocation';
+
+import { createStore, applyMiddleware } from 'redux';
+import { Provider } from 'react-redux';
+
+const createStoreWithMiddleware = applyMiddleware()(createStore);
+const store = createStoreWithMiddleware(reducers)
+
+// store.getState()
+// store.dispatch({ type: "LOGIN" })
+
 const App = () => (
-	<Router>
-		<Stack key = "root">
-			<Scene title="View Location" component={Map} onEnter={Map.onEnter}  key='map' />
-			<Scene title="Navigation" component={List} onEnter={List.onEnter} initial key='list' />
-			<Scene title="Add Location" component={AddLocation} onEnter={AddLocation.onEnter} key='addlocation' />
-			{/*<Scene title="Sign Up" component={SignupView} onEnter={SignupView.onEnter} initial key='signup' />
-			<Scene title="Log In" component={LoginScreen} onEnter={LoginScreen.onEnter} key='login' />*/}
-			<Scene title="Map View" component={MapView} onEnter={MapView.onEnter} key='mapview' />
-		</Stack>
-	</Router>
+	<Provider store={store}>
+		<Router>
+			<Stack key = "root">
+				<Scene title="View Location" component={Map} onEnter={Map.onEnter}  key='map' />
+				<Scene title="Navigation" component={List} onEnter={List.onEnter} key='list' />
+				<Scene title="Add Location" component={AddLocation} onEnter={AddLocation.onEnter} key='addlocation' />
+				<Scene title="Sign Up" component={SignupView} onEnter={SignupView.onEnter} initial key='signup' />
+				<Scene title="Log In" component={LoginScreen} onEnter={LoginScreen.onEnter} key='login' />
+				<Scene title="Map View" component={MapView} onEnter={MapView.onEnter} key='mapview' />
+			</Stack>
+		</Router>
+	</Provider>
 )
 
 

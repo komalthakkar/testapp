@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { View, StyleSheet } from 'react-native';
 import MapView from 'react-native-maps';
+import { connect } from 'react-redux';
+
+//import reducers from '../reducers';
 
 
 const styles = StyleSheet.create({
@@ -16,7 +19,7 @@ const styles = StyleSheet.create({
   },
 });
 
-module.exports = class MyApp extends React.Component {
+class MyApp extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -30,7 +33,7 @@ module.exports = class MyApp extends React.Component {
   }
   render() {
     const { region } = this.props;
-    console.log(region);
+    console.log(this.props);
 
     return (
       <View style ={styles.container}>
@@ -47,3 +50,11 @@ module.exports = class MyApp extends React.Component {
     );
   }
 }
+
+function mapStateToProp(state) {
+  return {
+    location: state.location
+  }
+}
+
+export default connect(mapStateToProp)(MyApp)

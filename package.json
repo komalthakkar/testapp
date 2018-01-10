@@ -14,7 +14,10 @@
     "react-native-maps": "^0.19.0",
     "react-native-router-flux": "^4.0.0-beta.27",
     "react-native-share": "^1.0.23",
-    "react-native-vector-icons": "^4.4.3"
+    "react-native-vector-icons": "^4.4.3",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "babel-jest": "22.0.4",

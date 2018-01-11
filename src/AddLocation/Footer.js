@@ -4,16 +4,29 @@ for add location and cancel button
 import React, { Component } from 'react';
 import { View, Button } from 'react-native';
 import { Actions } from 'react-native-router-flux';
+import {getAddLocation} from '../actions/GetLocation';
+import { connect } from 'react-redux';
 
-export default class Footer extends Component {
+
+class Footer extends Component {
+	
 	render() {
+		const loc={
+        latitude: 19.0760,
+        longitude: 72.8777,
+        latitudeDelta: 0.015,
+        longitudeDelta: 0.0121,
+      }
+      console.log(getAddLocation)
+      
 		return(
 			<View style={{ flex:1, flexDirection: 'row', alignItems: 'flex-end' }}>
 				<View style={{ width: 180, height: 35 }}>
 					<Button
 						title='Add Location'
 						color='rgba(231,76,60,1)'
-						onPress={() => { Actions.list() }}
+						onPress={() => { this.props.addinglocation(loc)
+							Actions.list() }}
 					/>
 				</View>
 				<View style={{ width: 180, height: 35 }}>
@@ -30,10 +43,15 @@ export default class Footer extends Component {
 	}
 }
 
+function mapDispatchToProps (dispatch) {
+	return {
+		 addinglocation: data => dispatch(getAddLocation(data))
+		 
+	}
+}
 
 
-
-
+export default connect(null, mapDispatchToProps)(Footer)
 
 
 

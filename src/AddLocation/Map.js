@@ -3,7 +3,7 @@ import { View, StyleSheet } from 'react-native';
 import MapView from 'react-native-maps';
 import { connect } from 'react-redux';
 
-//import reducers from '../reducers';
+import reducers from '../reducers/GetLocation';
 
 
 const styles = StyleSheet.create({
@@ -33,7 +33,7 @@ class MyApp extends React.Component {
   }
   render() {
     const { region } = this.props;
-    console.log(this.props);
+    //console.log(this.props);
 
     return (
       <View style ={styles.container}>
@@ -52,6 +52,7 @@ class MyApp extends React.Component {
 }
 
 function mapStateToProp(state) {
+  console.log(state)
   return {
     location: state.location
   }

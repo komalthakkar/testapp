@@ -4,6 +4,8 @@ import Share from 'react-native-share';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { Actions } from 'react-native-router-flux';
 
+
+
 export default class List extends Component<{}> {
 	constructor(props) {
 		super(props);
@@ -32,6 +34,7 @@ export default class List extends Component<{}> {
 
 		return(
 			<View style = {{ flexDirection: 'row' }}>
+				
 				<View style={{ flexDirection: 'row'}}>
         			<View style={{width: 100,height: 50, marginTop: 10 }}>
         				<Text>DD/MM/YYYY</Text>
@@ -74,3 +77,4 @@ const styles = StyleSheet.create ({
 		padding: 10
 	}
 })
+

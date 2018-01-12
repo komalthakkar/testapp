@@ -20,6 +20,8 @@ import reducers from './reducers/GetLocation';
 import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 
+//import VisibleList from './container/VisibleList'
+
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 const store = createStoreWithMiddleware(reducers)
 

@@ -3,13 +3,13 @@ import { View } from 'react-native';
 import ActionButton from 'react-native-action-button';
 // import Icon from 'react-native-vector-icons/Ionicons';p
 import { Actions } from 'react-native-router-flux';
-import { connect } from 'react-redux';
-import {getAddLocation} from '../reducers/GetLocation'
+// import { connect } from 'react-redux';
+// import {getAddLocation} from '../reducers/GetLocation'
 
 //import reducers from '../reducers/GetLocation';
 
 
-class AddLocation extends Component<{}> {
+export default class AddLocation extends Component<{}> {
 	render() {
 		return(
 			<View style = {{flex: 1, backgroundColor: '#f3f3f3'}}>
@@ -23,11 +23,13 @@ class AddLocation extends Component<{}> {
 	}
 }
 
-const mapStateToProps = state => {
-	return {
-		locations: getAddLocation(state.locations)
-	}
-}
+
+
+// const mapStateToProps = state => {
+// 	return {
+// 		locations: getAddLocation(state.locations)
+// 	}
+// }
 
 // function mapStateToProps (state) {
 // 	console.log(state)
@@ -37,4 +39,4 @@ const mapStateToProps = state => {
 // 	}
 // }
 
-export default connect(null, mapStateToProps)(AddLocation)
+//export default connect(null, mapStateToProps)(AddLocation)

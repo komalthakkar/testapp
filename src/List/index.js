@@ -15,6 +15,7 @@ import {
 import Header from './Header';
 import List from './List';
 import AddButton from './AddButton';
+import VisibleList from '../container/VisibleList';
 
 
 const instructions = Platform.select({
@@ -26,10 +27,12 @@ const instructions = Platform.select({
 
 export default class App extends Component<{}> {
   render() {
+
+    // console.log(this.props.locations) // get from redux
     return (
       <View style={{ flex : 1 }}>
         <Header />
-        <List />
+        <VisibleList />
         <AddButton />
 
       </View>

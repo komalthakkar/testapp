@@ -39,6 +39,7 @@ class MyApp extends React.Component {
       <View style ={styles.container}>
         <MapView
           style={styles.map}
+          // onRegionChagne
           region={this.state.region}
         >
         <MapView.Marker
@@ -51,11 +52,12 @@ class MyApp extends React.Component {
   }
 }
 
-function mapStateToProp(state) {
-  console.log(state)
-  return {
-    location: state.location
-  }
-}
+// function mapStateToProp(state) {
+//   console.log(state)
+//   return {
+//     location: state.location
+//   }
+// }
 
-export default connect(mapStateToProp)(MyApp)
+// export default connect(mapStateToProp)(MyApp)
+export default MyApp

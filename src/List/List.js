@@ -4,6 +4,7 @@ import Share from 'react-native-share';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { Actions } from 'react-native-router-flux';
 
+//import VisibleList from '../container/VisibleList';
 
 
 export default class List extends Component<{}> {
@@ -25,6 +26,7 @@ export default class List extends Component<{}> {
   	}
 	render() {
 
+		console.log(this.props.list)
 		let options = {
 			title: "React Native",
       message: "Hola mundo",
@@ -32,12 +34,15 @@ export default class List extends Component<{}> {
       subject: "Share Link" //  for email
 	};
 
+	const { list } = this.props
+	console.log(list)
+	const listTo = list[0] || {}
 		return(
 			<View style = {{ flexDirection: 'row' }}>
 				
 				<View style={{ flexDirection: 'row'}}>
-        			<View style={{width: 100,height: 50, marginTop: 10 }}>
-        				<Text>DD/MM/YYYY</Text>
+        			<View style={{width: 100,height: 50, marginTop: 10 }} >
+        				<Text>{listTo.latitude}/{listTo.longitude}</Text>
         			</View>
         			<View style={{width: 100, height: 50, marginLeft: 70, marginTop: 10 }}>
         				<Icon 

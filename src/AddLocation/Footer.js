@@ -7,11 +7,13 @@ import { Actions } from 'react-native-router-flux';
 import {getAddLocation} from '../actions/GetLocation';
 import { connect } from 'react-redux';
 
+//import VisibleList from '../container/VisibleList';
+
 
 class Footer extends Component {
 	
 	render() {
-		const loc={
+	const loc={
         latitude: 19.0760,
         longitude: 72.8777,
         latitudeDelta: 0.015,

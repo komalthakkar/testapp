@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-import Header from './Header';
+//import Header from './Header';
 import List from './List';
 import AddButton from './AddButton';
 import VisibleList from '../container/VisibleList';
@@ -31,7 +31,7 @@ export default class App extends Component<{}> {
     // console.log(this.props.locations) // get from redux
     return (
       <View style={{ flex : 1 }}>
-        <Header />
+        {/*<Header />*/}
         <VisibleList />
         <AddButton />
 

@@ -4,16 +4,19 @@ import MapView from 'react-native-maps';
 import { connect } from 'react-redux';
 
 import reducers from '../reducers/GetLocation';
+import Footer from './Footer';
 
 
 const styles = StyleSheet.create({
   container: {
     ...StyleSheet.absoluteFillObject,
-    height: 400,
-    width: 400,
+    // height: 400,
+    // width: 400,
+    flex: 1,
     justifyContent: 'flex-end',
     alignItems: 'center',
   },
+
   map: {
     ...StyleSheet.absoluteFillObject,
   },
@@ -28,6 +31,13 @@ class MyApp extends React.Component {
         longitude: 72.8777,
         latitudeDelta: 0.015,
         longitudeDelta: 0.0121,
+      },
+
+      markerRegion: {
+        latitude: 19.0760,
+        longitude: 72.8777,
+        latitudeDelta: 0.015,
+        longitudeDelta: 0.0121,
       }
     };
   }
@@ -36,19 +46,20 @@ class MyApp extends React.Component {
     //console.log(this.props);
 
     return (
-      <View style ={styles.container}>
+      <View style={styles.container}>
         <MapView
           style={styles.map}
-          // onRegionChagne
-          region={this.state.region}
-        >
-        <MapView.Marker
-          coordinate={this.state.region}
-          title="region"
-        />
+          region={this.state.region}>
+          <MapView.Marker 
+            draggable
+            coordinate={this.state.markerRegion}
+            onDragEnd={(e) => this.setState({ markerRegion: e.nativeEvent.coordinate})} />
         </MapView>
+        <View style={{ flex:1, flexDirection: 'row', alignItems: 'flex-end', paddingBottom: '-20%' }}>
+        <Footer markerRegion={this.state.markerRegion} />
+        </View>
       </View>
-    );
+    )
   }
 }
 

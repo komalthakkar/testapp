@@ -85,9 +85,10 @@ module.exports = class MapView extends React.Component {
       }
     };
   }
+
+  
   render() {
     const { region } = this.props;
-    console.log(region);
 
     return (
       <View style ={styles.container}>

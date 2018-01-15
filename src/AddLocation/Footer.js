@@ -6,6 +6,7 @@ import { View, Button } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 import {getAddLocation} from '../actions/GetLocation';
 import { connect } from 'react-redux';
+import MyApp from '../AddLocation/Map';
 
 //import VisibleList from '../container/VisibleList';
 
@@ -13,12 +14,7 @@ import { connect } from 'react-redux';
 class Footer extends Component {
 	
 	render() {
-	const loc={
-        latitude: 19.0760,
-        longitude: 72.8777,
-        latitudeDelta: 0.015,
-        longitudeDelta: 0.0121,
-      }
+	const {markerRegion}=this.props
       console.log(getAddLocation)
       
 		return(
@@ -27,7 +23,7 @@ class Footer extends Component {
 					<Button
 						title='Add Location'
 						color='rgba(231,76,60,1)'
-						onPress={() => { this.props.addinglocation(loc)
+						onPress={() => { this.props.addinglocation(markerRegion)
 							Actions.list() }}
 					/>
 				</View>

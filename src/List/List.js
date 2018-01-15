@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Text, View, StyleSheet, Button } from 'react-native';
+import { Text, View, StyleSheet, Button, FlatList } from 'react-native';
 import Share from 'react-native-share';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { Actions } from 'react-native-router-flux';
@@ -36,13 +36,13 @@ export default class List extends Component<{}> {
 
 	const { list } = this.props
 	console.log(list)
-	const listTo = list[0] || {}
-		return(
-			<View style = {{ flexDirection: 'row' }}>
-				
-				<View style={{ flexDirection: 'row'}}>
+	//const listTo = list[0] || {}
+		return this.props.list.map((list,index) => {
+			return(
+			<View key={index} style = {{ flexDirection: 'row' }}>
+			<View style={{ flexDirection: 'row'}}>
         			<View style={{width: 100,height: 50, marginTop: 10 }} >
-        				<Text>{listTo.latitude}/{listTo.longitude}</Text>
+        				<Text>{list.latitude}/{list.longitude}</Text>
         			</View>
         			<View style={{width: 100, height: 50, marginLeft: 70, marginTop: 10 }}>
         				<Icon 
@@ -68,6 +68,8 @@ export default class List extends Component<{}> {
 			</View>
 
 		);
+		})
+		
 	}
 }
 

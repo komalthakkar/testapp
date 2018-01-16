@@ -13,7 +13,7 @@ import List from './List'
 import Map from './Map'
 import SignupView from './MainPage/signup/index'
 import LoginScreen from './MainPage/login/index'
-import MapView from './Map'
+import MapView from './Map/index'
 
 import reducers from './reducers/GetLocation';
 

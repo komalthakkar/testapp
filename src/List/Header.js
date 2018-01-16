@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { View, TextInput } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
+import { SearchBar } from 'react-native-elements';
 
 export default class Header extends React.Component {
 	// constructor(props) {
@@ -12,21 +13,15 @@ export default class Header extends React.Component {
 	render() {
 		return(
 			<View style={{ flexDirection: 'row' }}>
-			<View style={{ flexDirection: 'row' }}>
-				<View style={{ flexDirection: 'row' }}>
-					<Icon 
-							name="location-searching"
-							color="rgba(231,76,60,1)"
-							size={30}
-							style={{ marginTop: 10 }}
+			
+				<View style={{ flex: 1 }}>
+					<SearchBar
+						lightTheme
+						placeholder='Type here...'
 					/>
 				</View>
-				<TextInput
-					style={{ flexDirection: 'row'}}
-					
-
-				/>
-			</View>
+				
+			
 			</View>
 		);
 	}

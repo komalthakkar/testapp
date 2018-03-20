@@ -101,7 +101,7 @@ def enableProguardInReleaseBuilds = false
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    buildToolsVersion '26.0.2'
 
     defaultConfig {
         applicationId "com.testapp"
@@ -121,8 +121,31 @@ android {
             include "armeabi-v7a", "x86"
         }
     }
+
+    signingConfigs {
+        debug {
+            keyAlias 'key0'
+            keyPassword 'testapp'
+            storeFile file('../../keystore.jks')
+            storePassword 'testapp'
+        }
+
+        release {
+            keyAlias 'key0'
+            keyPassword 'testapp'
+            storeFile file('../../keystore.jks')
+            storePassword 'testapp'
+        }
+    }
     buildTypes {
         release {
+            signingConfig signingConfigs.release
+            minifyEnabled enableProguardInReleaseBuilds
+            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+        }
+
+        debug {
+            signingConfig signingConfigs.debug
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }

@@ -35,8 +35,8 @@ const App = () => (
 				<Scene title="View Location" component={Map} onEnter={Map.onEnter}  key='map' />
 				<Scene title="Navigation" component={List} onEnter={List.onEnter} key='list' />
 				<Scene title="Add Location" component={AddLocation} onEnter={AddLocation.onEnter} key='addlocation' />
-				<Scene title="Sign Up" component={SignupView} onEnter={SignupView.onEnter} initial key='signup' />
-				<Scene title="Log In" component={LoginScreen} onEnter={LoginScreen.onEnter} key='login' />
+				<Scene title="Sign Up" component={SignupView} hideNavBar onEnter={SignupView.onEnter} initial key='signup' />
+				<Scene title="Log In" component={LoginScreen} hideNavBar onEnter={LoginScreen.onEnter} key='login' />
 				<Scene title="Map View" component={MapView} onEnter={MapView.onEnter} key='mapview' />
 			</Stack>
 		</Router>

@@ -3,138 +3,22 @@
 
     <item
         is-multidex="false"
+        jar="/home/osmos-17/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/519b8ead41b914254531310aaa57fa7e/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/13.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/osmos-17/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
         <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_c20626a3b6aeec2dedf93146ddabf7ed467a5a12.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/osmos-17/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_21c8965d7ac120a8b90b8db3ea3666aeb3d035d4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_014e5d39bf12093cc67c492c47749feae2319afb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_5f0058696c0ba21497762509905e72c6ef0b9385.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_099082f5ab6c966bb0eb40a6818b604443869027.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/testapp/react-native-maps/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="058af9a604e0762d29fb234f26d47cbfeaf41d4a">
-        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/testapp-react-native-maps-unspecified_227738a3df0d94673bbb6ca3207a553e2d1273ce.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_bd001a4f066bac79cc60e9e37f3ab8b068386327.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_b2bc67c0c0b18e2e11870c913dead3f7f3659138.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.0.1_34790ae546e2cacde083eff0cafa852a9ef5203b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_6bd00d68b94dad0b0f36e850c69d010fc95cec56.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_ffe34bd463737d824e49ec8b16b14cdabea7c562.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.51.0/jars/libs/infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_4c79ec3eb359f2cef765f1d7fac1f063c16c9041.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/osmos-17/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_1a85defa245a34c93c0c481c3ffe13a0f41666c9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_f05e4b1a8d1d73795352e26670e41961c46643b6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
-        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.0.1_4fc28fcc352bf0c8447d4de2610629c7b8f59284.jar" />
     </item>
     <item
         is-multidex="false"
@@ -147,30 +31,22 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/osmos-17/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
-        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_7c92682d8f89ad78a9a2c033a583eadaedef4d3e.jar" />
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.0.1_cd81813059e760b836d1d9a80024706a701d2a45.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jar="/home/osmos-17/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
         jumboMode="false"
+        min-sdk-version="16"
         optimize="true"
-        revision="23.0.1"
-        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.0.1_55c46015b8ce921d282e1b9ca8daaeabfce5a54c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_2f0e29ef0e55e6da740440bf5fcc0f685e7f5093.jar" />
+        revision="26.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/26.jar" />
     </item>
     <item
         is-multidex="false"
@@ -183,21 +59,118 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jar="/home/osmos-17/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
-        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.0.1_cd81813059e760b836d1d9a80024706a701d2a45.jar" />
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_7c92682d8f89ad78a9a2c033a583eadaedef4d3e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/osmos-17/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jar="/home/osmos-17/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/4662062735995f99d38023da32ddffe7/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_2b6c5659936806e96220ae7e7a33d7128c78850d.jar" />
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_f05e4b1a8d1d73795352e26670e41961c46643b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/5ce585c1ba50f720333431243412aa88/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.0.1_4fc28fcc352bf0c8447d4de2610629c7b8f59284.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_784b33647961c91616dd4b66db0afbd0642fbb91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/4459b9947dda9f90bdafbd1d6c9c868c/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/.gradle/caches/transforms-1/files-1.1/support-v4-24.0.0.aar/e70d956504dc17369ad03d25ce9f8ecf/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.51.0/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_4c79ec3eb359f2cef765f1d7fac1f063c16c9041.jar" />
     </item>
     <item
         is-multidex="false"
@@ -210,21 +183,51 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jar="/home/osmos-17/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_5996241716850e9c73b30e333a5ef87632d8dbc6.jar" />
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_1a85defa245a34c93c0c481c3ffe13a0f41666c9.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/testapp/react-native-share/unspecified/jars/classes.jar"
+        jar="/home/osmos-17/Desktop/testapp/node_modules/react-native-maps/lib/android/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d95f5b1bce2b702f448e14a5683432f975dd13a8">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/Desktop/testapp/node_modules/react-native-share/android/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="486ad37a4b60e7f31ab4ce23228bbbe8a0c0509e">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="f5779192f0d2cde7f10651863fdea7a5e23cdad7">
-        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/testapp-react-native-share-unspecified_c93509a48378f35d1ef2dc775caf58e93c491a50.jar" />
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_099082f5ab6c966bb0eb40a6818b604443869027.jar" />
     </item>
     <item
         is-multidex="false"
@@ -237,6 +240,224 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_bd001a4f066bac79cc60e9e37f3ab8b068386327.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/.gradle/caches/transforms-1/files-1.1/react-native-0.51.0.aar/7020d880d2a641f8e3491d3f2e418c52/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="99941aaaf86dc5e525cd9208c2f7c9a624f4f004">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_6bd00d68b94dad0b0f36e850c69d010fc95cec56.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/431835a7f98adaee559eb3153bd3b786/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_014e5d39bf12093cc67c492c47749feae2319afb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_5996241716850e9c73b30e333a5ef87632d8dbc6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/88fd9a123053dd5b5b508245dc926992/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/e7929d9bcbc72ad46727bc7d448b9a93/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/9cf2d86297296fc6913df566bbd87f6b/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/Desktop/testapp/node_modules/react-native-vector-icons/android/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f2cf527de8d0bd35d72088fafea02395ba4a9eec">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_2f0e29ef0e55e6da740440bf5fcc0f685e7f5093.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/.gradle/caches/transforms-1/files-1.1/react-native-0.51.0.aar/7020d880d2a641f8e3491d3f2e418c52/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/testapp/react-native-maps/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="058af9a604e0762d29fb234f26d47cbfeaf41d4a">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/testapp-react-native-maps-unspecified_227738a3df0d94673bbb6ca3207a553e2d1273ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_5f0058696c0ba21497762509905e72c6ef0b9385.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_2b6c5659936806e96220ae7e7a33d7128c78850d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.0.1_55c46015b8ce921d282e1b9ca8daaeabfce5a54c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/11115fbe6267f3ce5ba4c062c2219510/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_21c8965d7ac120a8b90b8db3ea3666aeb3d035d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.0.1_34790ae546e2cacde083eff0cafa852a9ef5203b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_ffe34bd463737d824e49ec8b16b14cdabea7c562.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/osmos-17/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
         jumboMode="false"
         optimize="true"
@@ -246,12 +467,71 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/osmos-17/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jar="/home/osmos-17/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/95aeba088c2ce4d720c1a0f9efddb00e/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.0.1.aar/5ad7cbf602ed6a94a6419c0f8d10fea6/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/5a5b7e024910be00293e4f4c53a5f3b6/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/testapp/react-native-share/unspecified/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_784b33647961c91616dd4b66db0afbd0642fbb91.jar" />
+        sha1="f5779192f0d2cde7f10651863fdea7a5e23cdad7">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/testapp-react-native-share-unspecified_c93509a48378f35d1ef2dc775caf58e93c491a50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/.gradle/caches/transforms-1/files-1.1/support-v4-24.0.0.aar/e70d956504dc17369ad03d25ce9f8ecf/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/d64c55a837b278c83438f18c21698085/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/transforms/preDex/release/11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/home/osmos-17/Desktop/testapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_b2bc67c0c0b18e2e11870c913dead3f7f3659138.jar" />
     </item>
 
 </items>
